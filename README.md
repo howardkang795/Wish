@@ -1,4 +1,4 @@
-# 安裝 <h1> 
+## 安裝 <h1> 
 **1. 進入專案資料夾../Wish/WishLog 中下指令 indocker-compose up -d**
 
 **2. Visual Studio 在 PMC 中，輸入下列命令：**
