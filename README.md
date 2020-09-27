@@ -31,4 +31,5 @@ dotnet ef database update
 若有重複的hash則加鹽再繼續做hash。
 
 https://github.com/howardkan79515/datastructure-algorithm/blob/master/src/map/TinyUrl.java
+
 上面連結是我對短網址的實作，請您參考。
