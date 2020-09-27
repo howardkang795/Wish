@@ -18,7 +18,7 @@ dotnet ef database update
 
 # 設計概念
 
-*主要table分三張表，Wishlist,WishListRelateProduct,Product
+*主要table分三張表，Wishlist,WishListRelateProduct,Product1
 因為需求中沒有描述Wishlist和user之間的關係，故不將user表和Wishlist建立關聯。
 
 *Wishlist表紀錄user點擊功能，WishListRelateProduct也就是Wishlist的Detail表
