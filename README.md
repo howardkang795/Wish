@@ -29,5 +29,6 @@ dotnet ef database update
 將timestamp, nounce, wishlistId三個變數相加做hash將hash回傳給user作為短網址的path
 ，將hash存在快取中，每次呼叫API 尋找WishList所屬的hash，將count+1，
 若有重複的hash則加鹽再繼續做hash。
+
 https://github.com/howardkan79515/datastructure-algorithm/blob/master/src/map/TinyUrl.java
-上面連結是我對短網址的實作
+上面連結是我對短網址的實作，請您參考。
