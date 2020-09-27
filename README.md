@@ -2,6 +2,7 @@
 
 **2. Visual Studio 在 PMC 中，輸入下列命令：**
 Add-Migration InitialCreate Update-Database 
+
 **Visual Studio Code / Visual Studio for Mac**
 dotnet tool install --global dotnet-ef dotnet ef migrations add InitialCreate dotnet ef database update
 
