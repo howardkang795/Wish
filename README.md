@@ -4,6 +4,7 @@
 Add-Migration InitialCreate Update-Database 
 
 **Visual Studio Code / Visual Studio for Mac**
+
 dotnet tool install --global dotnet-ef 
 
 dotnet ef migrations add InitialCreate 
