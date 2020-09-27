@@ -4,6 +4,10 @@
 Add-Migration InitialCreate Update-Database 
 
 **Visual Studio Code / Visual Studio for Mac**
-dotnet tool install --global dotnet-ef dotnet ef migrations add InitialCreate dotnet ef database update
+dotnet tool install --global dotnet-ef 
+
+dotnet ef migrations add InitialCreate 
+
+dotnet ef database update
 
 **3.執行專案WishLogin，進入首頁 https://localhost:29821/**
