@@ -1,0 +1,56 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model IEnumerable<Wish.Models.WishListRelateProduct>
+
+@{ ViewData["Title"] = "Whis List"; }
+
+<h1>Whis List</h1>
+
+<p>
+    <a asp-action="Create" asp-route-wishListId=model.WishListId>Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descript)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Descript)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Url)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CreateTime)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Product.ProductName)
+    </td>
+    <td>
+        @if (SignInManager.IsSignedIn(User))
+        {
+            @Html.ActionLink("Delete", "Delete",
+           new { RelateId = item.RelateId})
+        }
+    </td>
+</tr>}
+    </tbody>
+</table>

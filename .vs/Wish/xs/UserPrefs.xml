@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{9F939F1F-F27F-4C55-B68A-81ADF8E4E6B4}|Default">
+  <MonoDevelop.Ide.ItemProperties.WishLogin PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WishLogin/Views/Shared/_LoginPartial.cshtml">
+    <Files>
+      <File FileName="WishLogin/Controllers/WishListRelateController.cs" Line="86" Column="1" />
+      <File FileName="WishLogin/Service/WishListRelateService.cs" Line="4" Column="32" />
+      <File FileName="WishLogin/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="WishLogin/Views/Shared/_Layout.cshtml" Line="30" Column="19" />
+      <File FileName="WishLogin/Views/Shared/_LoginPartial.cshtml" Line="21" Column="10" />
+      <File FileName="WishLogin/Startup.cs" Line="35" Column="38" />
+      <File FileName="WishLogin/docker-compose.yml" Line="1" Column="1" />
+      <File FileName="WishLogin/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Wish" expanded="True">
+            <Node name="WishLogin" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Service" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_LoginPartial.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Wish/Wish.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/howardkan79515/Projects/Wish/Wish/Controllers/WishListRelateController.cs" relfile="Wish/Controllers/WishListRelateController.cs" line="56" column="13" />
+      <Breakpoint file="/Users/howardkan79515/Projects/Wish/Wish/Controllers/WishListRelateController.cs" relfile="Wish/Controllers/WishListRelateController.cs" line="56" column="13" />
+      <Breakpoint file="/Users/howardkan79515/Projects/Wish/WishLogin/Controllers/WishListRelateController.cs" relfile="WishLogin/Controllers/WishListRelateController.cs" line="85" column="9" />
+      <Breakpoint file="/Users/howardkan79515/Projects/Wish/WishLogin/Controllers/WishListRelateController.cs" relfile="WishLogin/Controllers/WishListRelateController.cs" line="56" column="13" />
+      <Breakpoint file="/Users/howardkan79515/Projects/Wish/WishLogin/Controllers/WishListRelateController.cs" relfile="WishLogin/Controllers/WishListRelateController.cs" line="53" column="17" />
+      <Breakpoint file="/Users/howardkan79515/Projects/Wish/WishLogin/Controllers/WishListRelateController.cs" relfile="WishLogin/Controllers/WishListRelateController.cs" line="41" column="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
