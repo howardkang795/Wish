@@ -1,6 +1,7 @@
 **1. 進入專案資料夾../Wish/WishLog 中下指令 indocker-compose up -d**
 
 **2. Visual Studio 在 PMC 中，輸入下列命令：**
+
 Add-Migration InitialCreate Update-Database 
 
 **Visual Studio Code / Visual Studio for Mac**
